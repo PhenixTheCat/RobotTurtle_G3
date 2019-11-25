@@ -186,7 +186,8 @@ public class Player {
     cars.add(3);
     cars.add(2);
     //TODO vérifier si la case est valide, et renvoyer les coordonées
-    return (Coord)
+    System.out.println("Emplacement du mure choisis");
+    return (Coord);
   }
 
 
@@ -218,6 +219,7 @@ public class Player {
   {
     chooseWall();
     chooseTile();
+    System.out.println("Mure placé");
     //TODO placer le mure sur la carte
   }
 
@@ -249,6 +251,7 @@ public class Player {
   private Char chooseWall()
   {
     //TODO Choix du mure, et vérifier si il en reste
+    System.out.println("Type de mure choisis");
     return ('I');
   }
 
