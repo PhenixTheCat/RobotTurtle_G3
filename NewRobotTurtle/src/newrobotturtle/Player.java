@@ -182,7 +182,11 @@ public class Player {
    */
   public ArrayList chooseTile()
   {
-      return null;
+    ArrayList<Int> Coord = new ArrayList<Int>();
+    cars.add(3);
+    cars.add(2);
+    //TODO vérifier si la case est valide, et renvoyer les coordonées
+    return (Coord)
   }
 
 
@@ -212,6 +216,9 @@ public class Player {
    */
   private void placeWall()
   {
+    chooseWall();
+    chooseTile();
+    //TODO placer le mure sur la carte
   }
 
 
@@ -239,8 +246,10 @@ public class Player {
 
   /**
    */
-  private void chooseWall()
+  private Char chooseWall()
   {
+    //TODO Choix du mure, et vérifier si il en reste
+    return ('I');
   }
 
 
