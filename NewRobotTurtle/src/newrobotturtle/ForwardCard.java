@@ -1,6 +1,4 @@
 package newrobotturtle;
-import java.util.*;
-
 
 /**
  * Class ForwardCard
