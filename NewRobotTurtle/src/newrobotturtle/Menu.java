@@ -33,6 +33,7 @@ public class Menu {
    */
   private int choosePlayersCount()
   {
+      System.out.println("choosing player count");
       return 0;
   }
 

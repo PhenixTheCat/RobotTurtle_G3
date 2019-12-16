@@ -1,9 +1,11 @@
 package newrobotturtle;
 
+import javax.swing.JFrame;
+
 /**
  * Class Window
  */
-public class Window {
+public class Window extends JFrame{
 
   //
   // Fields
@@ -32,6 +34,7 @@ public class Window {
    */
   public void createWindow()
   {
+      System.out.println("Window created");
   }
 
 
@@ -39,6 +42,7 @@ public class Window {
    */
   public void updateBoard()
   {
+      System.out.println("Board updated");
   }
 
 
@@ -46,6 +50,7 @@ public class Window {
    */
   public void updatePlayers()
   {
+      System.out.println("Players updated");
   }
 
 
