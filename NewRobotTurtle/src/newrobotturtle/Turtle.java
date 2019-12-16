@@ -117,6 +117,7 @@ public class Turtle {
    */
   public void forward()
   {
+      System.out.println("turtle forward !");
   }
 
 
@@ -124,6 +125,7 @@ public class Turtle {
    */
   public void left()
   {
+      System.out.println("turtle left !");
   }
 
 
@@ -131,6 +133,7 @@ public class Turtle {
    */
   public void right()
   {
+      System.out.println("turtle right !");
   }
 
 
@@ -138,6 +141,7 @@ public class Turtle {
    */
   public void shoot()
   {
+      System.out.println("turtle shoot !");
   }
 
 
@@ -145,6 +149,7 @@ public class Turtle {
    */
   public void respawn()
   {
+      System.out.println("respawning turtle");
   }
 
 
@@ -152,6 +157,7 @@ public class Turtle {
    */
   public void uTurn()
   {
+      System.out.println("turtle uturn");
   }
 
 
@@ -162,6 +168,7 @@ public class Turtle {
    */
   public boolean testCollision(int targetX, int targetY)
   {
+      System.out.println("testing collision with "+targetX+" and "+targetY);
       return false;
   }
 

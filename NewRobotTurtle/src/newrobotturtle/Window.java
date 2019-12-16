@@ -34,6 +34,7 @@ public class Window extends JFrame{
    */
   public void createWindow()
   {
+      System.out.println("Window created");
   }
 
 
@@ -41,6 +42,7 @@ public class Window extends JFrame{
    */
   public void updateBoard()
   {
+      System.out.println("Board updated");
   }
 
 
@@ -48,6 +50,7 @@ public class Window extends JFrame{
    */
   public void updatePlayers()
   {
+      System.out.println("Players updated");
   }
 
 
