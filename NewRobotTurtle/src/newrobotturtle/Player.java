@@ -228,6 +228,8 @@ public class Player {
    */
   private void addCard()
   {
+    //TODO ajout d'une carte
+    addToProgram(Card chooseCard())
   }
 
 
@@ -260,6 +262,9 @@ public class Player {
    */
   private void chooseCard()
   {
+    //TODO Choix de la carte et vérification si elle est dans la main
+    System.out.println("Carte choisis");
+    return (Card.LeftCard());
   }
 
 
@@ -268,6 +273,8 @@ public class Player {
    */
   private void addToProgram(Card card)
   {
+    //TODO ajouter une carte au programme
+    System.out.println("Carte ajoutée");
   }
 
 
