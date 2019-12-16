@@ -1,9 +1,11 @@
 package newrobotturtle;
 
+import javax.swing.JFrame;
+
 /**
  * Class Window
  */
-public class Window {
+public class Window extends JFrame{
 
   //
   // Fields
